@@ -159,10 +159,11 @@ Django" page. Congrats on starting Django!
 
 Now to deploy this project on your local server, just download the entire repo and paste it in your root directory (where the manage.py is present) and run the following commands:
 
+```
 $ python manage.py makemigrations notes
 $ python manage.py migrate
 $ python manage.py runserver
-
+```
 You can view the database using the link. http://127.0.0.1:8000/admin, Notes will appear on the page.
 
 To login you need to first create a super user using the following command:
